@@ -1,3 +1,5 @@
+a = int(input())
+
 def is_prime(number):
     count = 0
     for i in range(2,number):
@@ -6,4 +8,4 @@ def is_prime(number):
     if count != 0: return False
 
     else: return True
-print(is_prime(22))
+print(is_prime(a))
